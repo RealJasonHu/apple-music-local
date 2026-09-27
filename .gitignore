@@ -1,0 +1,32 @@
+# Build products and local dependencies
+dist/
+releases/
+.build/
+.build-support/
+.venv/
+venv/
+runtime/
+__pycache__/
+*.pyc
+.DS_Store
+*.app/
+# Local state and authentication material
+private/
+Downloads/
+Originals/
+MP3/
+WAV/
+queue.json
+cookies*.txt
+*.wvd
+*.prd
+.env
+.env.*
+*.log
+# Machine-specific verification receipts
+docs/install-result.json
+docs/verification*.json
+docs/v2-live-*.json
+
+# Source archives are released as assets, fetched by bootstrap for builds
+vendor-source/*.tar.*

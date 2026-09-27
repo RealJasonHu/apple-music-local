@@ -1,0 +1,52 @@
+[
+  {
+    "name": "pywidevine",
+    "version": "1.9.0",
+    "filename": "pywidevine-1.9.0.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/52/b6/4855cb958892653029f3cafa8a4724d554b847de0a43a3808cea109b9e78/pywidevine-1.9.0.tar.gz",
+    "sha256": "6742daf5fd797c5a4813eb1300efb3181ffcddd0c8c478ee28c7c536aa0e51b2",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+    ]
+  },
+  {
+    "name": "mutagen",
+    "version": "1.48.1",
+    "filename": "mutagen-1.48.1.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/df/70/1675da133ea92227da41bf5b24e1c66be597ff736a1533ade41da986852f/mutagen-1.48.1.tar.gz",
+    "sha256": "8f95637ab9f6f305cec6bd1294e197debe207998e3e068596563c74f86b0a173",
+    "license_expression": "GPL-2.0-or-later",
+    "license_classifiers": []
+  },
+  {
+    "name": "Unidecode",
+    "version": "1.4.0",
+    "filename": "Unidecode-1.4.0.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/94/7d/a8a765761bbc0c836e397a2e48d498305a865b70a8600fd7a942e85dcf63/Unidecode-1.4.0.tar.gz",
+    "sha256": "ce35985008338b676573023acc382d62c264f307c8f7963733405add37ea2b23",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)"
+    ]
+  },
+  {
+    "name": "pyplayready",
+    "version": "0.8.5",
+    "filename": "pyplayready-0.8.5.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/cd/5a/8e3edc616f4342350526299ff00dd99dc914978c871efce77f0e73f846e1/pyplayready-0.8.5.tar.gz",
+    "sha256": "138bc6271e52ab664ae6f47cb3cbdf7ab5b26a0440a3ab5d1a5cb3f06019b6f9",
+    "license_expression": null,
+    "license_classifiers": [
+      "License :: Other/Proprietary License"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.7.22",
+    "filename": "certifi-2026.7.22.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+    "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+    "license_expression": "MPL-2.0"
+  }
+]

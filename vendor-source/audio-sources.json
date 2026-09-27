@@ -1,0 +1,23 @@
+{
+  "purpose": "Exact source inputs for the bundled audio-only FFmpeg build",
+  "components": [
+    {
+      "name": "FFmpeg",
+      "version": "7.1",
+      "archive": "ffmpeg-7.1.tar.xz",
+      "url": "https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz",
+      "sha256": "40973d44970dbc83ef302b0609f2e74982be2d85916dd2ee7472d30678a7abe6",
+      "license": "LGPL-2.1-or-later for this build; GPL and nonfree features disabled",
+      "modifications": "None"
+    },
+    {
+      "name": "LAME",
+      "version": "3.100",
+      "archive": "lame-3.100.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/lame/lame/3.100/lame-3.100.tar.gz",
+      "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+      "license": "LGPL-2.0-or-later",
+      "modifications": "None"
+    }
+  ]
+}

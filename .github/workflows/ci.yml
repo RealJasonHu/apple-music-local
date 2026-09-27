@@ -1,0 +1,25 @@
+name: macOS build and tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: macos-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  macos:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - name: Check Apple Silicon runner
+        run: test "$(uname -m)" = arm64
+      - name: Run synthetic regression tests
+        run: ./scripts/test.sh
+      - name: Build standalone app
+        run: ./build.sh
+      - name: Verify local signature
+        run: codesign --verify --deep --strict "dist/Apple Music Local.app"
